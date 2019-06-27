@@ -3,9 +3,10 @@ plugins:
     - markdownwavedrom
 
 extra_javascript:
-    - wavedrom.unpkg.js
-    - skin-default.js
+    # use local.
+    # - wavedrom.unpkg.js
+    # - skin-default.js
     # from internet.
-    # - https://cdn.jsdelivr.net/npm/wavedrom@2.1.2/wavedrom.unpkg.js
-    # - https://wavedrom.com/skins/default.js
+    - https://cdn.jsdelivr.net/npm/wavedrom@2.1.2/wavedrom.unpkg.js
+    - https://wavedrom.com/skins/default.js
 
