@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+mkdocs_wavedrom_plugin.egg-info/
+
+# Environments
+env/
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# downloaded javascripts
+docs/skin-default.js
+docs/wavedrom.unpkg.js
+
