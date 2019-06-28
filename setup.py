@@ -9,7 +9,6 @@ from setuptools import setup, find_packages  # type: ignore
 
 def readme():
     # type: () -> str
-    """print long description"""
     with open('README.md') as f:
         return f.read()
 
@@ -25,6 +24,7 @@ setup(name='mkdocs-wavedrom-plugin',
       description='A MkDocs plugin for support '
                   'wavedrom charts in markdown file',
       long_description=long_description + "\n\n" + readme(),
+      long_description_content_type='text/markdown',
       keywords='mkdocs python markdown wavedrom',
       url='https://github.com/kuri65536/mkdocs-wavedrom-plugin',
       author='Shimoda',
@@ -37,7 +37,8 @@ setup(name='mkdocs-wavedrom-plugin',
       classifiers=['Development Status :: 3 - Alpha',
                    'Intended Audience :: Developers',
                    'Intended Audience :: Information Technology',
-                   'License :: OSI Approved :: MPL2 License',
+                   'License :: OSI Approved :: '
+                   'Mozilla Public License 2.0 (MPL 2.0)',
                    'Programming Language :: Python :: 2',
                    'Programming Language :: Python :: 2.7',
                    'Programming Language :: Python :: 3',
