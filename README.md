@@ -7,11 +7,16 @@ render waveform charts in the wavedrom style.
 
 Installation
 --------------------------
+Install this package with pip.
 
-Install the package with pip (under progress):
-
+### from PyPi
 ```bash
-pip install git+https://github.com/mkdocs-mkdocs-plugin
+pip install mkdocs-wavedrom-plugin
+```
+
+### from github
+```bash
+pip install git+https://github.com/kuri65536/mkdocs-mkdocs-plugin
 ```
 
 
@@ -32,7 +37,8 @@ embed your wavedrom code in markdown documents.
 ```
 </pre>
 
-or see [a sample markdown](docs/test.md) for the sample.
+or see [a sample markdown](https://github.com/kuri65536/mkdocs-wavedrom-plugin/docs/test.md)
+for the sample.
 
 
 
@@ -45,20 +51,23 @@ plugins:
     - markdownwavedrom
 
 extra_javascript:
-    - wavedrom.unpkg.js
-    - skin-default.js
+    # - wavedrom.unpkg.js
+    # - skin-default.js
     # above, place *.js in docs directory, or below from internet.
-    # - https://cdn.jsdelivr.net/npm/wavedrom@2.1.2/wavedrom.unpkg.js
-    # - https://wavedrom.com/skins/default.js
+    - https://cdn.jsdelivr.net/npm/wavedrom@2.1.2/wavedrom.unpkg.js
+    - https://wavedrom.com/skins/default.js
 ```
 
 
 
 Demo
 --------------------------
-see [sample a test.html result](http://htmlpreview.github.io/?https://github.com/kuri65536/mkdocs-wavedrom-plugin/test.html)
+see [sample a test.html result](https://raw.githack.com/kuri65536/mkdocs-wavedrom-plugin/master/test.html)
 
-### local
+### image
+![test image](https://user-images.githubusercontent.com/11357613/60380894-ad48c280-9a87-11e9-9e0a-e782b1805310.png)
+
+### from local
 
 ```shell
 $ python -m venv env
@@ -69,6 +78,13 @@ $ browse http://localhost:8000/test/index.html
 ```
 
 or `make build` and `browse site/test/index.html`, if you have make binary.
+
+### (optional) download wavedrom
+to download javascript files to local
+
+```shell
+$ make download
+```
 
 
 

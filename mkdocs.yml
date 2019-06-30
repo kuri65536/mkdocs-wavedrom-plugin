@@ -2,6 +2,10 @@ site_name: test
 plugins:
     - markdownwavedrom
 
+nav:
+    - 'README.md'
+    - 'test.md'
+
 extra_javascript:
     # use local.
     # - wavedrom.unpkg.js
