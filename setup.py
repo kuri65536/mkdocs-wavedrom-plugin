@@ -4,6 +4,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 #
+import sys
 from setuptools import setup, find_packages  # type: ignore
 
 
@@ -13,6 +14,11 @@ def readme():
         return f.read()
 
 
+pkg_typing = []  # type: List[Text]
+if sys.version_info < (3, 5):
+    pkg_typing = ['typing']
+
+
 long_description = (
     "This is a mkdocs plugin, "
     "this could enable the wavedrom charts in the markdown file."
@@ -20,7 +26,7 @@ long_description = (
 )
 
 setup(name='mkdocs-wavedrom-plugin',
-      version='0.1.0',
+      version='0.1.1',
       description='A MkDocs plugin for support '
                   'wavedrom charts in markdown file',
       long_description=long_description + "\n\n" + readme(),
@@ -33,7 +39,7 @@ setup(name='mkdocs-wavedrom-plugin',
       python_requires='>=2.7',
       install_requires=['setuptools>=18.5',
                         'beautifulsoup4>=4.6.3',
-                        'mkdocs>=1.0.4'],
+                        'mkdocs>=1.0.4'] + pkg_typing,
       classifiers=['Development Status :: 3 - Alpha',
                    'Intended Audience :: Developers',
                    'Intended Audience :: Information Technology',
