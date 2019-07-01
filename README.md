@@ -93,3 +93,13 @@ Thanks
 a lot part of this plugin  
 were came from mkdocs-mermaid-plugin
 
+
+
+Donations
+---------------------
+If you are feel to nice for this software, please donation to my
+
+-   Bitcoin **| 1FTBAUaVdeGG9EPsGMD5j2SW8QHNc5HzjT |**
+-   or Ether **| 0xd7Dc5cd13BD7636664D6bf0Ee8424CFaF6b2FA8f |** .
+
+
