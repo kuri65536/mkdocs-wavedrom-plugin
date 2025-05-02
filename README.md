@@ -99,11 +99,14 @@ Donations
 ---------------------
 If you are feel to nice for this software, please donation to my
 
-- Bitcoin **| 19AyoXxhm8nzgcxgbiXNPkiqNASfc999gJ |**
-- Ether **| 0x3a822c36cd5184f9ff162c7a55709f3d6d861608 |**
-- or librapay, I'm glad from smaller (about $1)
+<a href="bitcoin:39Qx9Nffad7UZVbcLpVpVanvdZEQUanEXd?message=thank-for-pdf-toc-outlines&amount=0.000035">
+  <img src="https://github.com/user-attachments/assets/abce4347-bcb3-42c6-a9e8-1cd12f1bd4a5" />
+</a>
+___
+<a href="ethereum:0x9d03b1a8264023c3ad8090b8fc2b75b1ba2b3f0f?value=0.002">
+  <img src="https://github.com/user-attachments/assets/d1bdb9a8-9c6f-4e74-bc19-0d0bfa041eb2" />
+</a>
 
-<!--
-vi: ft=markdown:et:fdm=marker
--->
-
+- bitcoin:39Qx9Nffad7UZVbcLpVpVanvdZEQUanEXd
+- ethereum:0x9d03b1a8264023c3ad8090b8fc2b75b1ba2b3f0f
+- or librapay.
